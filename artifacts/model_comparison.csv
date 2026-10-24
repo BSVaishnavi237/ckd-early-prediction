@@ -1,0 +1,9 @@
+Model,Feature Set,Accuracy,CKD Precision,CKD Recall,CKD F1
+Decision Tree,All features,0.975,0.9615384615384616,1.0,0.9803921568627451
+Decision Tree,Top 15 features,0.9625,0.9433962264150944,1.0,0.970873786407767
+Random Forest,All features,0.9875,0.9803921568627451,1.0,0.9900990099009901
+Random Forest,Top 15 features,0.9875,0.9803921568627451,1.0,0.9900990099009901
+Logistic Regression,All features,0.9875,1.0,0.98,0.98989898989899
+Logistic Regression,Top 15 features,1.0,1.0,1.0,1.0
+SVM,All features,1.0,1.0,1.0,1.0
+SVM,Top 15 features,1.0,1.0,1.0,1.0

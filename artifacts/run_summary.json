@@ -1,0 +1,79 @@
+{
+  "created_utc": "2026-10-24T16:55:34+00:00",
+  "data_source": "UCI Machine Learning Repository, CKD dataset (id=336) via ucimlrepo",
+  "random_state": 42,
+  "test_size": 0.2,
+  "top_k": 15,
+  "versions": {
+    "python": "3.13.9",
+    "scikit_learn": "1.9.1",
+    "pandas": "3.1.0",
+    "numpy": "2.5.4"
+  },
+  "cleaning": {
+    "raw_rows": 400,
+    "raw_columns": 25,
+    "duplicates_removed": 0,
+    "rows_dropped_missing_target": 0,
+    "rows_after_cleaning": 400
+  },
+  "n_features": 24,
+  "n_encoded_features": 34,
+  "n_selected_features": 15,
+  "class_names": [
+    "ckd",
+    "notckd"
+  ],
+  "ckd_label": "ckd",
+  "ckd_index": 0,
+  "class_counts": {
+    "ckd": 250,
+    "notckd": 150
+  },
+  "train_class_counts": {
+    "ckd": 200,
+    "notckd": 120
+  },
+  "test_class_counts": {
+    "ckd": 50,
+    "notckd": 30
+  },
+  "n_train": 320,
+  "n_test": 80,
+  "total_missing_cells": 1012,
+  "feature_sets": {
+    "full": "All features",
+    "selected": "Top 15 features"
+  },
+  "models": [
+    "Decision Tree",
+    "Random Forest",
+    "Logistic Regression",
+    "SVM"
+  ],
+  "selected_features": [
+    "bp",
+    "sg",
+    "al",
+    "bgr",
+    "bu",
+    "sc",
+    "sod",
+    "pot",
+    "hemo",
+    "pcv",
+    "rbcc",
+    "htn_no",
+    "htn_yes",
+    "dm_no",
+    "dm_yes"
+  ],
+  "best_saved": {
+    "model": "SVM",
+    "feature_set": "All features",
+    "rule": "highest CKD F1 on the test set among all-feature pipelines (ties broken by accuracy, then model order)"
+  },
+  "tied_best_models": [
+    "SVM"
+  ]
+}

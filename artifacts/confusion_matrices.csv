@@ -1,0 +1,33 @@
+Model,Feature Set,Actual,Predicted,Count
+Decision Tree,All features,ckd,ckd,50
+Decision Tree,All features,ckd,notckd,0
+Decision Tree,All features,notckd,ckd,2
+Decision Tree,All features,notckd,notckd,28
+Decision Tree,Top 15 features,ckd,ckd,50
+Decision Tree,Top 15 features,ckd,notckd,0
+Decision Tree,Top 15 features,notckd,ckd,3
+Decision Tree,Top 15 features,notckd,notckd,27
+Random Forest,All features,ckd,ckd,50
+Random Forest,All features,ckd,notckd,0
+Random Forest,All features,notckd,ckd,1
+Random Forest,All features,notckd,notckd,29
+Random Forest,Top 15 features,ckd,ckd,50
+Random Forest,Top 15 features,ckd,notckd,0
+Random Forest,Top 15 features,notckd,ckd,1
+Random Forest,Top 15 features,notckd,notckd,29
+Logistic Regression,All features,ckd,ckd,49
+Logistic Regression,All features,ckd,notckd,1
+Logistic Regression,All features,notckd,ckd,0
+Logistic Regression,All features,notckd,notckd,30
+Logistic Regression,Top 15 features,ckd,ckd,50
+Logistic Regression,Top 15 features,ckd,notckd,0
+Logistic Regression,Top 15 features,notckd,ckd,0
+Logistic Regression,Top 15 features,notckd,notckd,30
+SVM,All features,ckd,ckd,50
+SVM,All features,ckd,notckd,0
+SVM,All features,notckd,ckd,0
+SVM,All features,notckd,notckd,30
+SVM,Top 15 features,ckd,ckd,50
+SVM,Top 15 features,ckd,notckd,0
+SVM,Top 15 features,notckd,ckd,0
+SVM,Top 15 features,notckd,notckd,30

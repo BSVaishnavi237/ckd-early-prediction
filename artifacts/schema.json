@@ -1,0 +1,236 @@
+{
+  "feature_columns": [
+    "age",
+    "bp",
+    "sg",
+    "al",
+    "su",
+    "rbc",
+    "pc",
+    "pcc",
+    "ba",
+    "bgr",
+    "bu",
+    "sc",
+    "sod",
+    "pot",
+    "hemo",
+    "pcv",
+    "wbcc",
+    "rbcc",
+    "htn",
+    "dm",
+    "cad",
+    "appet",
+    "pe",
+    "ane"
+  ],
+  "dtypes": {
+    "age": "float64",
+    "bp": "float64",
+    "sg": "float64",
+    "al": "float64",
+    "su": "float64",
+    "rbc": "object",
+    "pc": "object",
+    "pcc": "object",
+    "ba": "object",
+    "bgr": "float64",
+    "bu": "float64",
+    "sc": "float64",
+    "sod": "float64",
+    "pot": "float64",
+    "hemo": "float64",
+    "pcv": "float64",
+    "wbcc": "float64",
+    "rbcc": "float64",
+    "htn": "object",
+    "dm": "object",
+    "cad": "object",
+    "appet": "object",
+    "pe": "object",
+    "ane": "object"
+  },
+  "numerical_cols": [
+    "age",
+    "bp",
+    "sg",
+    "al",
+    "su",
+    "bgr",
+    "bu",
+    "sc",
+    "sod",
+    "pot",
+    "hemo",
+    "pcv",
+    "wbcc",
+    "rbcc"
+  ],
+  "categorical_cols": [
+    "rbc",
+    "pc",
+    "pcc",
+    "ba",
+    "htn",
+    "dm",
+    "cad",
+    "appet",
+    "pe",
+    "ane"
+  ],
+  "numeric_stats": {
+    "age": {
+      "min": 2.0,
+      "max": 90.0,
+      "median": 54.0,
+      "mean": 51.095238095238095,
+      "missing_in_train": 5
+    },
+    "bp": {
+      "min": 50.0,
+      "max": 140.0,
+      "median": 80.0,
+      "mean": 76.3225806451613,
+      "missing_in_train": 10
+    },
+    "sg": {
+      "min": 1.005,
+      "max": 1.025,
+      "median": 1.02,
+      "mean": 1.0174912891986063,
+      "missing_in_train": 33
+    },
+    "al": {
+      "min": 0.0,
+      "max": 5.0,
+      "median": 0.0,
+      "mean": 0.9965034965034965,
+      "missing_in_train": 34
+    },
+    "su": {
+      "min": 0.0,
+      "max": 5.0,
+      "median": 0.0,
+      "mean": 0.4823943661971831,
+      "missing_in_train": 36
+    },
+    "bgr": {
+      "min": 22.0,
+      "max": 490.0,
+      "median": 120.0,
+      "mean": 149.34397163120568,
+      "missing_in_train": 38
+    },
+    "bu": {
+      "min": 1.5,
+      "max": 391.0,
+      "median": 41.0,
+      "mean": 55.72013201320132,
+      "missing_in_train": 17
+    },
+    "sc": {
+      "min": 0.4,
+      "max": 48.1,
+      "median": 1.2,
+      "mean": 2.9042904290429044,
+      "missing_in_train": 17
+    },
+    "sod": {
+      "min": 104.0,
+      "max": 163.0,
+      "median": 138.0,
+      "mean": 137.7741935483871,
+      "missing_in_train": 72
+    },
+    "pot": {
+      "min": 2.5,
+      "max": 47.0,
+      "median": 4.35,
+      "mean": 4.655241935483871,
+      "missing_in_train": 72
+    },
+    "hemo": {
+      "min": 4.8,
+      "max": 17.8,
+      "median": 12.95,
+      "mean": 12.703260869565216,
+      "missing_in_train": 44
+    },
+    "pcv": {
+      "min": 14.0,
+      "max": 54.0,
+      "median": 41.0,
+      "mean": 39.41698841698842,
+      "missing_in_train": 61
+    },
+    "wbcc": {
+      "min": 2200.0,
+      "max": 26400.0,
+      "median": 8000.0,
+      "mean": 8345.021645021645,
+      "missing_in_train": 89
+    },
+    "rbcc": {
+      "min": 2.1,
+      "max": 8.0,
+      "median": 4.8,
+      "mean": 4.775943396226414,
+      "missing_in_train": 108
+    }
+  },
+  "categorical_options": {
+    "rbc": [
+      "abnormal",
+      "normal"
+    ],
+    "pc": [
+      "abnormal",
+      "normal"
+    ],
+    "pcc": [
+      "notpresent",
+      "present"
+    ],
+    "ba": [
+      "notpresent",
+      "present"
+    ],
+    "htn": [
+      "no",
+      "yes"
+    ],
+    "dm": [
+      "no",
+      "yes"
+    ],
+    "cad": [
+      "no",
+      "yes"
+    ],
+    "appet": [
+      "good",
+      "poor"
+    ],
+    "pe": [
+      "no",
+      "yes"
+    ],
+    "ane": [
+      "no",
+      "yes"
+    ]
+  },
+  "categorical_mode": {
+    "rbc": "normal",
+    "pc": "normal",
+    "pcc": "notpresent",
+    "ba": "notpresent",
+    "htn": "no",
+    "dm": "no",
+    "cad": "no",
+    "appet": "good",
+    "pe": "no",
+    "ane": "no"
+  }
+}
